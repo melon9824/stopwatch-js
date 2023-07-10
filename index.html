@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this project has created for learning purpose">
+    <title>stopwatch-js</title>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- stopwatch -->
+    <div class="stopwatch">
+        <!-- title -->
+        <h2 class="title">STOPWATCH</h2>
+        
+        <!-- display time -->
+        <h1 id="displayTime">00:00:00</h1>
+
+        <!-- buttons -->
+        <div class="buttons">
+            <div class="tooltip">
+                <img src="img/stop.png" onclick="watchStop()">
+                <span class="tooltip-text">Stop</span>
+            </div>
+            <div class="tooltip">
+                <img src="img/start.png" onclick="watchStart()">
+                <span class="tooltip-text">Start</span>
+            </div>
+            <div class="tooltip">
+                <img src="img/reset.png" onclick="watchReset()">
+                <span class="tooltip-text">Reset</span>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <footer>
+           <p>&copy; <a href="#"><b>agile</b>Point.</a>&bullet; July 09, 2023</p>
+           <p><a href="#">Khorshed Alam</a></p>
+       </footer>
+    </div>
+    
+
+
+    <!-- js -->
+    <script src="main.js"></script>
+</body>
+</html>
